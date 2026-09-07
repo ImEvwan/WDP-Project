@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory System - Inventory</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Inventory Management System</h1>
+
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="inventory.html">Inventory</a> |
+            <a href="login.html">Login</a>
+        </nav>
+
+        <hr>
+    </header>
+
+    <main>
+        <h2>Inventory</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Item ID</th>
+                    <th>Item Name</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            </tbody>
+        </table>
+
+        <h2>Add Inventory Item</h2>
+
+        <form action="#" method="post">
+
+            <p>
+                <label for="itemName">Item Name:</label><br>
+                <input type="text" id="itemName" name="itemName">
+            </p>
+
+            <p>
+                <label for="category">Category:</label><br>
+                <input type="text" id="category" name="category">
+            </p>
+
+            <p>
+                <label for="quantity">Quantity:</label><br>
+                <input type="number" id="quantity" name="quantity" min="0">
+            </p>
+
+            <p>
+                <input type="submit" value="Add Item">
+                <input type="reset" value="Clear">
+            </p>
+
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>Inventory Management System</p>
+    </footer>
+
+</body>
+</html>
