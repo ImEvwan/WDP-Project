@@ -57,7 +57,7 @@ The ERD shows the tables and how they are connected.
 
 6. An item can be used in many projects. Each project item refers to one item.
 
-##SQL
+## SQL
 MySQL was used for the database portion. The tables implemented so far are Category, Supplier, and Item. 
 Item references foreign keys SupplierID and CategoryID. 
 ![Table Creation](images/create_tables.png)
