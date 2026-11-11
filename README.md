@@ -63,3 +63,10 @@ Item references foreign keys SupplierID and CategoryID.
 ![Table Creation](images/create_tables.png)
 ![Tables Shown](images/show_tables.png)
 ![Describe Command](images/describe.png)
+
+## JavaScript Form Pre-Check-In
+
+- `register.html` uses `user.js` to read the registration fields, create a new `User` object, and log it to the browser console.
+- `login.html` uses `user.js` to read the username and password, create an object, and log it to the console.
+- `inventory.html` uses `inventory.js` to read the Add Inventory Item form, create an object, and log it to the console.
+don't put passwords into this, they are still plain text :)
