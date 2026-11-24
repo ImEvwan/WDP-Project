@@ -13,7 +13,7 @@
   "license": "Apache-2.0",
   "author": "evan kharlamb",
   "type": "commonjs",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
 	"dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"

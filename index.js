@@ -32,3 +32,4 @@ for(let i = 0; i < array.length; i++) {
 console.log("Number of elements divisible by 3: " + count);
 
 //this was the lecture exercise but i'm gonna keep this here anyways
+
